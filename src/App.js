@@ -28,7 +28,7 @@ export default function App() {
   ];
   return (
     <div className="App">
-      {/*<Navbar layout={navbarLayout} />*/}
+      <Navbar layout={navbarLayout} />
       <BannerImage />
       <div className="position-absolute" style={{ top: "60%", width: "100%" }}>
         <div
@@ -37,10 +37,10 @@ export default function App() {
         >
           <Container>
             <Row>
-              <Col className="border border-dark">1 of 1</Col>
+              <Col className="border border-dark">1 of 2</Col>
             </Row>
             <Row className="pt-4">
-              <Col className="border border-dark">1 of 1</Col>
+              <Col className="border border-dark">2 of 2</Col>
             </Row>
           </Container>
         </div>

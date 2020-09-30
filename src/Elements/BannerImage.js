@@ -1,8 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 export const BannerImage = () => (
-  <Container fluid style={{ backgroundColor: "blue" }}>
-    nothing much
-  </Container>
+  <Container
+    className="border border-dark position-absolute"
+    fluid
+    style={{
+      height: "75%",
+      backgroundImage: "url(bg.jpg)",
+      backgroundSize: "cover"
+    }}
+  ></Container>
 );
