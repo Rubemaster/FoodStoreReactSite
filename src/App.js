@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Navbar } from "./Elements/Navbar.js";
+import { Navbar } from "./Elements/NewNavbar.js";
 import { BannerImage } from "./Elements/BannerImage.js";
 import { ButtonRow } from "./Elements/ButtonRow.js";
 import { LinkAndIconRow } from "./Elements/LinkAndIconRow.js";
@@ -13,25 +13,39 @@ export const App = () => (
       layout={[
         {
           type: "link",
-          link: { name: "Home page", url: "#1" }
+          link: { name: "Handla online", url: "#1" }
         },
         {
           type: "link",
-          link: { name: "Sign in", url: "#2" }
+          link: { name: "Erbjudanden", url: "#2" }
         },
         {
-          type: "dropdown",
-          dropdown: {
-            title: "what what",
-            links: [
-              { name: "Home boy", url: "#3" },
-              { name: "Bruh", url: "#4" }
-            ]
-          }
+          type: "link",
+          link: { name: "ICAs matkasse", url: "#2" }
+        },
+        {
+          type: "link",
+          link: { name: "Hitta butik", url: "#2" }
+        },
+        {
+          type: "link",
+          link: { name: "Recept", url: "#2" }
+        },
+        {
+          type: "link",
+          link: { name: "Hälsa", url: "#2" }
+        },
+        {
+          type: "link",
+          link: { name: "Buffé", url: "#2" }
+        },
+        {
+          type: "link",
+          link: { name: "Kundservice", url: "#2" }
         }
       ]}
     />
-    {/*<BannerImage />*/}
+    <BannerImage />
     <div className="position-absolute" style={{ top: "60%", width: "100%" }}>
       <div
         className="position-absolute"
@@ -66,7 +80,7 @@ export const App = () => (
             }
           ]}
         />
-        {/*<ButtonRow
+        <ButtonRow
           layout={[
             {
               type: "link",
@@ -93,7 +107,7 @@ export const App = () => (
               link: { name: "Appar och tjänster", url: "s that" }
             }
           ]}
-        />*/}
+        />
       </div>
     </div>
   </div>
