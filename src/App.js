@@ -10,6 +10,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export const App = () => (
   <div className="App">
     <Navbar
+      color="rgb(255,255,255)"
+      height="40px"
+      title="MAT.se"
+      links={[
+        { url: "/handla", name: "Handla online" },
+        { url: "/handla", name: "Handla online" },
+        { url: "/handla", name: "Handla online" }
+      ]}
       layout={[
         {
           type: "link",

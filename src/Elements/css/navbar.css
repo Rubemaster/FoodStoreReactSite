@@ -1,0 +1,29 @@
+.navbar-preferences--shell {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.navbar-preferences--inner {
+  position: relative;
+  padding-left: 10px;
+  top: 50%;
+}
+.navbar-preferences--center--shell {
+  position: relative;
+  top: -500px;
+  height: 1000px;
+  display: table;
+}
+.navbar-preferences--center--inner {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+.navbar-preferences--link {
+  padding: 0px 10px 0px 10px;
+}
+.navbar--bar--content {
+  display: inline;
+}
